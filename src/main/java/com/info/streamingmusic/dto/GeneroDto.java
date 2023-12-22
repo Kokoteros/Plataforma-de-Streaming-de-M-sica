@@ -1,0 +1,15 @@
+package com.info.streamingmusic.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.Setter;
+
+@NoArgsConstructor
+@Getter @Setter
+public class GeneroDto {
+    private String id;
+    @NotBlank(message = "El campo de nombre no puede ser nulo o vacio")
+    private String nombre;
+}

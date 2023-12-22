@@ -1,13 +1,8 @@
 package com.info.streamingmusic.repository;
-import com.info.streamingmusic.domain.Usuario;
+import com.info.streamingmusic.domain.Genero;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.UUID;
 @Repository
-public interface UsuarioRepository extends JpaRepository<Usuario, UUID> {
-        //Usuario findBy(String usuario);
+public interface GeneroRepository extends JpaRepository<Genero, UUID>{
 }
-
-
-
-

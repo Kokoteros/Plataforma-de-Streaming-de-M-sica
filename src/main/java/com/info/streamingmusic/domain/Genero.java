@@ -23,6 +23,6 @@ public class Genero extends PlataformaMusical {
     @Column(nullable = false)
     private String nombre;
 
-    @OneToMany(mappedBy = "generos", cascade = CascadeType.ALL, orphanRemoval = true)
+    @ManyToMany(mappedBy = "generos", cascade = CascadeType.ALL)
     private List<Cancion> canciones = new ArrayList<>();
 }
