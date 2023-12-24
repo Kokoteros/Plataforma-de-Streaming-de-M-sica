@@ -1,6 +1,6 @@
 package com.info.streamingmusic.dto;
 
-import com.info.streamingmusic.dto.*;
+import com.info.streamingmusic.dto.CancionDto;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 import lombok.Getter;

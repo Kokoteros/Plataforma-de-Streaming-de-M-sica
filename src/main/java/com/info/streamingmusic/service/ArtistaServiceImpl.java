@@ -3,7 +3,8 @@ package com.info.streamingmusic.service;
 import com.info.streamingmusic.domain.Artista;
 import com.info.streamingmusic.repository.ArtistaRepository;
 import com.info.streamingmusic.dto.ArtistaDto;
-import com.info.streamingmusic.*;
+import com.info.streamingmusic.mapper.ArtistaMapper;
+import com.info.streamingmusic.exception.NotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
